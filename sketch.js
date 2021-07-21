@@ -44,7 +44,7 @@ function setup() {
   sun.addAnimation("sun", sunAnimation);
   sun.scale = 0.1
   
-  trex = createSprite(50,height-70,20,50);
+  trex = createSprite(200,height-70,20,50);
   
   
   trex.addAnimation("running", trex_running);
